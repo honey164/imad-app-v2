@@ -41,7 +41,7 @@ var htmltemplate = `
     <html>
     <head>
         <title>
-            ${tilte}
+            {title}
             
             
         </title>
