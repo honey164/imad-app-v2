@@ -41,7 +41,7 @@ var htmltemplate = `
     <html>
     <head>
         <title>
-            s{tilte}
+            ${tilte}
             
             
         </title>
@@ -58,16 +58,16 @@ var htmltemplate = `
         </div>
         <hr/>
         <h3>
-            s{heading}
+            ${heading}
             
         </h3>
         <div>
-            s{date}
+            ${date}
             
         </div>
         <div>
             
-            s{content}
+            ${content}
         </div>
         </div>
     </body>
